@@ -1,0 +1,78 @@
+=== ANÁLISE DE COMPARAÇÕES: HEAP vs FILA ENCADEADA ===
+
+Iniciando 30 simulações...
+
+Simulação 1/30: Testando com 10 elementos... Heap: 18 comp | Fila: 39 comp
+Simulação 2/30: Testando com 20 elementos... Heap: 60 comp | Fila: 157 comp
+Simulação 3/30: Testando com 30 elementos... Heap: 102 comp | Fila: 355 comp
+Simulação 4/30: Testando com 40 elementos... Heap: 122 comp | Fila: 513 comp
+Simulação 5/30: Testando com 50 elementos... Heap: 135 comp | Fila: 666 comp
+Simulação 6/30: Testando com 60 elementos... Heap: 140 comp | Fila: 817 comp
+Simulação 7/30: Testando com 70 elementos... Heap: 143 comp | Fila: 967 comp
+Simulação 8/30: Testando com 80 elementos... Heap: 159 comp | Fila: 1117 comp
+Simulação 9/30: Testando com 90 elementos... Heap: 160 comp | Fila: 1267 comp
+Simulação 10/30: Testando com 100 elementos... Heap: 170 comp | Fila: 1417 comp
+Simulação 11/30: Testando com 120 elementos... Heap: 180 comp | Fila: 1717 comp
+Simulação 12/30: Testando com 140 elementos... Heap: 184 comp | Fila: 2017 comp
+Simulação 13/30: Testando com 160 elementos... Heap: 190 comp | Fila: 2317 comp
+Simulação 14/30: Testando com 180 elementos... Heap: 187 comp | Fila: 2617 comp
+Simulação 15/30: Testando com 200 elementos... Heap: 210 comp | Fila: 2917 comp
+Simulação 16/30: Testando com 220 elementos... Heap: 210 comp | Fila: 3217 comp
+Simulação 17/30: Testando com 240 elementos... Heap: 206 comp | Fila: 3517 comp
+Simulação 18/30: Testando com 260 elementos... Heap: 210 comp | Fila: 3817 comp
+Simulação 19/30: Testando com 280 elementos... Heap: 222 comp | Fila: 4117 comp
+Simulação 20/30: Testando com 300 elementos... Heap: 221 comp | Fila: 4417 comp
+Simulação 21/30: Testando com 350 elementos... Heap: 216 comp | Fila: 5167 comp
+Simulação 22/30: Testando com 400 elementos... Heap: 238 comp | Fila: 5917 comp
+Simulação 23/30: Testando com 450 elementos... Heap: 240 comp | Fila: 6667 comp
+Simulação 24/30: Testando com 500 elementos... Heap: 238 comp | Fila: 7417 comp
+Simulação 25/30: Testando com 550 elementos... Heap: 260 comp | Fila: 8167 comp
+Simulação 26/30: Testando com 600 elementos... Heap: 254 comp | Fila: 8917 comp
+Simulação 27/30: Testando com 650 elementos... Heap: 270 comp | Fila: 9667 comp
+Simulação 28/30: Testando com 700 elementos... Heap: 266 comp | Fila: 10417 comp
+Simulação 29/30: Testando com 750 elementos... Heap: 264 comp | Fila: 11167 comp
+Simulação 30/30: Testando com 800 elementos... Heap: 268 comp | Fila: 11917 comp
+
+=== RESUMO DOS RESULTADOS ===
+Tamanho | Heap | Fila
+--------|------|------
+     10 |   18 |   39
+     20 |   60 |  157
+     30 |  102 |  355
+     40 |  122 |  513
+     50 |  135 |  666
+     60 |  140 |  817
+     70 |  143 |  967
+     80 |  159 | 1117
+     90 |  160 | 1267
+    100 |  170 | 1417
+    120 |  180 | 1717
+    140 |  184 | 2017
+    160 |  190 | 2317
+    180 |  187 | 2617
+    200 |  210 | 2917
+    220 |  210 | 3217
+    240 |  206 | 3517
+    260 |  210 | 3817
+    280 |  222 | 4117
+    300 |  221 | 4417
+    350 |  216 | 5167
+    400 |  238 | 5917
+    450 |  240 | 6667
+    500 |  238 | 7417
+    550 |  260 | 8167
+    600 |  254 | 8917
+    650 |  270 | 9667
+    700 |  266 | 10417
+    750 |  264 | 11167
+    800 |  268 | 11917
+
+Gerando script R para plotagem...
+Script R gerado: plot_comparacoes.R
+Dados salvos em 'resultados.csv'
+
+=== INSTRUÇÕES ===
+1. Instale R: https://www.r-project.org/
+2. Instale pacotes: install.packages(c('ggplot2', 'reshape2'))
+3. Execute: Rscript plot_comparacoes.R
+4. Gráfico gerado: comparacao_estruturas.png

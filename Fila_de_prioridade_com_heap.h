@@ -1,7 +1,7 @@
 #ifndef LEARNING_ALGORITHMS_FILA_DE_PRIORIDADE_COM_HEAP_H
 #define LEARNING_ALGORITHMS_FILA_DE_PRIORIDADE_COM_HEAP_H
 
-#define MAX_SIZE_HEAP 250
+#define MAX_SIZE_HEAP 1000
 #include "item.h"
 
 typedef struct heap {
